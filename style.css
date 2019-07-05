@@ -1,0 +1,28 @@
+.fora{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-column-gap: 40px;
+}
+
+.dentro {
+    background-color: blue;
+    height: 200px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(3, 33%);
+    grid-gap: 5px;
+}
+
+.lalala {
+    background-color: yellow;
+}
+
+@media (max-width: 700px) {
+    .dentro {
+        background-color: green;
+    }
+}
